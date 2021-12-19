@@ -11,6 +11,8 @@ ioctl.c − the process to use ioctl's to control the kernel module. Until now w
 
 -> Invoke make from the directory containing these files.
 
+	%make
+
 -> To insert the module:
 
 	%sudo insmod ./chardev.ko
